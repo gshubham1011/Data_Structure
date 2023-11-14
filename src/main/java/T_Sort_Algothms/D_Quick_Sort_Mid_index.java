@@ -3,7 +3,8 @@ package T_Sort_Algothms;
 import java.util.Arrays;
 
 public class D_Quick_Sort_Mid_index {
-    
+    // pivot will me middle element
+	
     public static void quickSort(int[] array, int low, int high) {
         if (low < high) {
             // Find the pivot index such that elements smaller than the pivot are on the left,
