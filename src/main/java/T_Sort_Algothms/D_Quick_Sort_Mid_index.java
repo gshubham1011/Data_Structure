@@ -40,8 +40,7 @@ public class D_Quick_Sort_Mid_index {
 
                 // Update indices after the swap
                 low++;
-                high--;
-               
+                high--;               
             }
         }
 
