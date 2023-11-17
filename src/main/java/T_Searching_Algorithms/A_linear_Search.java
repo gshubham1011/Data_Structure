@@ -1,6 +1,6 @@
 package T_Searching_Algorithms;
 
-public class linear_Search {
+public class A_linear_Search {
 	 public static boolean linearSearch(int[] a, int searchKey) {
 		 
 		 for(int i=0;i<a.length;i++) {
