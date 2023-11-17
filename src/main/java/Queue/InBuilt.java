@@ -18,7 +18,7 @@ public class InBuilt {
 		queue.remove(); //FIFO
 		queue.remove(25); //pop
 		
-		for (Iterator iterator = queue.iterator(); iterator.hasNext();) {
+		for (Iterator<Integer> iterator = queue.iterator(); iterator.hasNext();) {
 			Integer integer = (Integer) iterator.next();
 			System.out.println(integer);
 		}
@@ -28,13 +28,13 @@ public class InBuilt {
 	    for (int i=0;i<queue.size();i++) {
             st.add(queue.remove());
 	    }
-	    for (Iterator iterator = st.iterator(); iterator.hasNext();) {
+	    for (Iterator<Integer> iterator = st.iterator(); iterator.hasNext();) {
 			Integer integer = (Integer) iterator.next();
 			queue.add(integer);
 		}
 	    System.out.println(" Queue After reverse ");
 	    
-	    for (Iterator iterator = queue.iterator(); iterator.hasNext();) {
+	    for (Iterator<Integer> iterator = queue.iterator(); iterator.hasNext();) {
 			Integer integer = (Integer) iterator.next();
 			System.out.println(integer);
 		}

@@ -1,9 +1,5 @@
 package Queue;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.Queue;
-import java.util.*;
 
 public class PriorityQueue {
 

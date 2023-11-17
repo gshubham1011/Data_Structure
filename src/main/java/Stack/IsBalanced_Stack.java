@@ -10,7 +10,7 @@ public class IsBalanced_Stack {
 	}
 	
 	public static boolean isBalancedStack(String s ) {
-		Stack stack = new Stack();
+		Stack<Character> stack = new Stack<Character>();
 		
 		for(char c: s.toCharArray()) {
 			if( c=='(' || c =='{' || c=='[') {

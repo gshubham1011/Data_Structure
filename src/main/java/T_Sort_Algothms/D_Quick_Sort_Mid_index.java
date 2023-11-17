@@ -1,6 +1,5 @@
 package T_Sort_Algothms;
 
-import java.util.Arrays;
 
 public class D_Quick_Sort_Mid_index {
     // pivot will me middle element

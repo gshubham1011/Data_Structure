@@ -1,10 +1,8 @@
 package Queue;
 
-import java.util.Arrays;
-
 public class First_ArrayBased_Queue_EN_DEQ {
 	int rear;
-	static int[] a;
+	int[] a;
 			
 	public First_ArrayBased_Queue_EN_DEQ(int size){
 		rear =-1;

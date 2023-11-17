@@ -1,10 +1,9 @@
 package Queue;
 
-import java.util.Arrays;
 
 public class ArrayBased_Queue_Behave_Like_PrioprityQueue {
 	int rear;
-	static int[] a;
+	int[] a;
 			
 	public ArrayBased_Queue_Behave_Like_PrioprityQueue(int size){
 		rear =-1;
