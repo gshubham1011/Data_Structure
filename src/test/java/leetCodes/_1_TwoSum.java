@@ -21,6 +21,7 @@ public class _1_TwoSum {
         }
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
+            System.out.println(complement+"  "+map.get(complement));
             if (map.containsKey(complement) && map.get(complement) != i) {
                 return new int[] { i, map.get(complement) };
             }

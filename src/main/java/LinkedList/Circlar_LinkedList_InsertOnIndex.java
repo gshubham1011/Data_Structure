@@ -19,9 +19,17 @@ public class Circlar_LinkedList_InsertOnIndex {
 	    		 tail.next=newNode;
 	    		 head=newNode;
 	    	 }else {
-	    	 newNode.next=curr;
-	    	 prev.next=newNode;
+		    	 newNode.next=curr;
+		    	 prev.next=newNode;
 	    	 }
+	     }else
+	     {
+	    	 System.out.println("Adding ");
+	    	 curr.next=newNode;
+	    	 newNode.next=head;
+	    	 tail=newNode;
+	    	 System.out.println("Added ");
+
 	     }
 	}
     
@@ -30,8 +38,8 @@ public class Circlar_LinkedList_InsertOnIndex {
 		
 		Circlar_LinkedList_InsertOnIndex l = new Circlar_LinkedList_InsertOnIndex();
 		l.addNodeAtTheEnd(10);
-		l.addNodeAtTheEnd(20);
-		l.addNodeAtTheEnd(30);
+	    l.addNodeAtTheEnd(20);
+	   	l.addNodeAtTheEnd(30);
 		l.addNodeAtTheEnd(40);
 		l.addNodeAtTheEnd(50);
 
@@ -57,6 +65,7 @@ public class Circlar_LinkedList_InsertOnIndex {
 			if(head==null) {
 				head=newNode;
 				tail=newNode;
+				newNode.next=newNode;
 			}else {
 				tail.next=newNode;
 				newNode.next=head;

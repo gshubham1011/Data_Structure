@@ -2,6 +2,11 @@ package Stack;
 
 import java.util.Stack;
 
+/**
+ * @author sgupt146
+ *
+ * info this code with give you the least or minimum element present in to the stack
+ */
 public class Stack_Mini_Element {
 
 	static Stack<Integer> mainStack=new Stack<Integer>();
