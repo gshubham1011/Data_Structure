@@ -1,7 +1,7 @@
 package Tree;
 
 
-public class D_BinaryTree_SearchElement {
+public class D_BinaryTree_SearchElement { // Search Olog(n)
 	
 	class node {
 		int value;
